@@ -92,7 +92,7 @@ function sendMessage() {
     }
 
     const apiKey = '80e32ff22202bdf09ed27af87605d753';
-    const endpoint = 'https://api.deepseek.com/chat/completions';
+    const endpoint = 'https://spark-api-open.xf-yun.com/v1/chat/completions';
 
     const payload = {
         model: "deepseek-chat",
