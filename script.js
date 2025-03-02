@@ -91,11 +91,11 @@ function sendMessage() {
         loadingElement.style.display = 'block';
     }
 
-    const apiKey = '80e32ff22202bdf09ed27af87605d753';
-    const endpoint = 'https://spark-api-open.xf-yun.com/v1/chat/completions';
+    const apiKey = 'sk-fdtOGv9Gt5r1pxARhZ0BGtM5dNTFKkaXb2RtjMRtsXIvPIlN';
+    const endpoint = 'https://api.lkeap.cloud.tencent.com/v1';
 
     const payload = {
-        model: "deepseek-chat",
+        model: "deepseek-r1",
         messages: [
             { role: "system", content: "You are a helpful assistant" },
             { role: "user", content: message }
